@@ -2,20 +2,11 @@
 title: "Introduction"
 order: 2
 ---
-The background to the work.
 
-This paragraph contains one species, a _Hippopotamus amphibius_.
+The development of statistics over the past century has seen the proliferation of methods designed to allow inferences from data. Methods vary widely in their philosophical foundations, the questions they are supposed to address, and their frequency of use in practice. One popular and widely-promoted class of methods comprises interval estimates. There are a variety of approaches to interval estimation, differing in their philosophical foundation and computation, but informally all are supposed to be estimates of a parameter that account for measurement or sampling uncertainty by yielding a range of values for the parameter instead of a single value.
 
-This sentence cites an article in the bibliography ([Author, 2014](https://example.com/articles/1)).
+Of the many kinds of interval estimates, the most popular is the confidence interval (CI). Confidence intervals are introduced in almost all introductory statistics texts; they are recommended or required by the methodological guidelines of many prominent journals (e.g., [Psychonomic Society, 2012](http://www.springer.com/psychology?SGWID=0-10126-6-1390050-0), [Wilkinson & Task Force on Statistical Inference, 1999](https://www.apa.org/pubs/journals/releases/amp-54-8-594.pdf)); and they form the foundation of methodological reformers' proposed programs ([Cumming, 2014](http://pss.sagepub.com/content/25/1/7), [Loftus, 1996](http://cdp.sagepub.com/content/5/6/161.refs)). In the current atmosphere of methodological reform, a firm understanding of what sorts of inferences confidence interval theory does, and does not, allow is critical to decisions about how science is done in the future.
 
-This sentence cites another article ([Author, 2015](https://example.com/articles/2)).
+In this paper, we argue that the advocacy of CIs is based on a folk understanding of CI theory, rather than a statistical understanding. We outline three fallacies of CIs, and place these in the philosophical and historical context of CI theory proper. Through an easily-accessible example adapted from the statistical literature, we show how CI theory differs from the folk theory of CIs. Finally, we show the fallacies of confidence in the context of a CI advocated and commonly used for ANOVA and regression analysis, and discuss the implications of the mismatch between CI theory and the folk theory of CIs.
 
-This paragraph has a DOI citation at the end, which supports this statement[👍](https://dx.doi.org/10.1038/nature14388 "Cancer: Antibodies regulate antitumour immunity").
-
-This paragraph [links to an article by DOI](https://dx.doi.org/10.7717/peerj.182 "Ontogeny in the tube-crested dinosaur Parasaurolophus (Hadrosauridae) and heterochrony in hadrosaurids").
-
-This paragraph [links to an article by PMID](http://www.ncbi.nlm.nih.gov/pubmed/25898005).
-
-Equations and formula can be included either inline ($$ 2+2=4 $$) or as display blocks:
-
-<div>\[ \sum_{i=0}^{\infty}\pi_i=\sum_{i=0}^{\infty}\rho^i\pi_0=\frac{\pi_0}{1-\rho}=1 \]</div>
+Our main point is this: confidence intervals should not be used as modern proponents suggest because this usage is not justified by confidence interval theory. The benefits that modern proponents see CIs as having are considerations outside of confidence interval theory; hence, if used in the way CI proponents suggest, CIs can provide severely misleading inferences. For many CIs, proponents have not actually explored whether the CI supports reasonable inferences or not. For this reason, we believe that appeal to CI theory is redundant in the best cases, when inferences can be justified outside CI theory, and unwise in the worst cases, when they cannot.
